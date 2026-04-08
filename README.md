@@ -319,6 +319,31 @@ Key examples include:
 
 ---
 
+## Results
+
+Initial scenario-comparison runs on **545 rows** show that the current MVP-B primary model already works as a **usable comparative scenario-analysis tool**.
+
+- **Baseline mean prediction:** `0.10431`
+- **`cs137 +20%` scenario:** mean prediction change **+1.29%**
+- **`sr90 +20%` scenario:** mean prediction change **+0.21%**
+- **`remediation_light` scenario:** strongest average reduction, **-1.65%**
+
+These results suggest that **`cs137` is the dominant scenario driver** in the current model, while remediation-style contamination reduction produces the strongest average downward shift.
+
+```mermaid
+flowchart LR
+    A[Baseline table] --> B[Scenario perturbation]
+    B --> C1[cs137 +20%]
+    B --> C2[sr90 +20%]
+    B --> C3[remediation_light]
+    C1 --> D[Run MVP-B prediction]
+    C2 --> D
+    C3 --> D
+    D --> E[Compare against baseline]
+    E --> F1[Mean delta %]
+    E --> F2[Point-wise deltas]
+    E --> F3[Top sensitive locations]
+
 ## Summary
 
 This repository shows the progression from:
