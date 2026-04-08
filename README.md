@@ -330,19 +330,6 @@ Initial scenario-comparison runs on **545 rows** show that the current MVP-B pri
 
 These results suggest that **`cs137` is the dominant scenario driver** in the current model, while remediation-style contamination reduction produces the strongest average downward shift.
 
-```mermaid
-flowchart LR
-    A[Baseline table] --> B[Scenario perturbation]
-    B --> C1[cs137 +20%]
-    B --> C2[sr90 +20%]
-    B --> C3[remediation_light]
-    C1 --> D[Run MVP-B prediction]
-    C2 --> D
-    C3 --> D
-    D --> E[Compare against baseline]
-    E --> F1[Mean delta %]
-    E --> F2[Point-wise deltas]
-    E --> F3[Top sensitive locations]
 
 ## Summary
 
