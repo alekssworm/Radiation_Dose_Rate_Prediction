@@ -1,0 +1,21 @@
+{
+  "baseline_label": "baseline",
+  "scenario_label": "cs137_minus_20",
+  "n_rows": 545,
+  "baseline_mean": 0.10431192660550448,
+  "scenario_mean": 0.10316295473003823,
+  "baseline_median": 0.102534775920953,
+  "scenario_median": 0.1019606458800714,
+  "delta_abs_mean": -0.0011489718754662454,
+  "delta_abs_median": -0.00041994706064689413,
+  "delta_abs_min": -0.023257793987138703,
+  "delta_abs_max": 0.0025244168821138002,
+  "delta_abs_std": 0.00227959268547378,
+  "delta_pct_mean": -1.005010385113559,
+  "delta_pct_median": -0.4169138482231901,
+  "delta_pct_min": -15.538538108454212,
+  "delta_pct_max": 2.448795162138789,
+  "rows_delta_positive": 91,
+  "rows_delta_negative": 449,
+  "rows_delta_zero": 5
+}

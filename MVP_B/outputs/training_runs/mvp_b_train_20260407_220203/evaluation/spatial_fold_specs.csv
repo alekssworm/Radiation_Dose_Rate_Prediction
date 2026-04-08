@@ -1,0 +1,11 @@
+mode,fold_index,n_train_rows,n_test_rows,n_train_groups,n_test_groups
+env_mode,0,2700,676,615,154
+env_mode,1,2701,675,616,153
+env_mode,2,2701,675,615,154
+env_mode,3,2701,675,615,154
+env_mode,4,2701,675,615,154
+nuclide_mode,0,436,109,296,74
+nuclide_mode,1,436,109,296,74
+nuclide_mode,2,436,109,296,74
+nuclide_mode,3,436,109,296,74
+nuclide_mode,4,436,109,296,74

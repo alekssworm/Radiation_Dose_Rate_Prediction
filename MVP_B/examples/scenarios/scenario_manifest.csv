@@ -1,0 +1,6 @@
+scenario_name,description,output_csv,n_rows,cs137_min,cs137_max,sr90_min,sr90_max
+baseline,Unmodified baseline contamination table.,MVP_B\examples\scenarios\scenario_baseline.csv,545,2.17,142.0,0.36,59.7
+cs137_plus_20,Increase Cs-137 by 20 percent.,MVP_B\examples\scenarios\scenario_cs137_plus_20.csv,545,2.6039999999999996,170.4,0.36,59.7
+cs137_minus_20,Decrease Cs-137 by 20 percent.,MVP_B\examples\scenarios\scenario_cs137_minus_20.csv,545,1.736,113.60000000000001,0.36,59.7
+sr90_plus_20,Increase Sr-90 by 20 percent.,MVP_B\examples\scenarios\scenario_sr90_plus_20.csv,545,2.17,142.0,0.432,71.64
+remediation_light,Light remediation scenario: Cs-137 x0.70 and Sr-90 x0.85.,MVP_B\examples\scenarios\scenario_remediation_light.csv,545,1.519,99.39999999999999,0.306,50.745000000000005
