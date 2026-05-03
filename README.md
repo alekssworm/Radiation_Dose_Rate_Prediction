@@ -352,6 +352,5 @@ At its current stage, the project can already be used as a meaningful applied ML
 
 Personal applied ML / geospatial ML portfolio project focused on practical pipeline design, validation, and structured experimentation.
 
-````
 
 
